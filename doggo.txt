@@ -1,0 +1,5 @@
+<!DOCTYPE html>
+<html lang="en">
+<title> LOOK AT THIS DOGGO </title>
+<img src= "Images/doggo.jpg">
+</html>
