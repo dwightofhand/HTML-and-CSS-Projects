@@ -38,6 +38,87 @@
 			<div id="images">
 				<h1>Images</h1>
 				<div>
+					<div class="row">
+						<div class="column">
+						  <img src="./images/jiu_jitsu.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+						</div>
+						<div class="column">
+						  <img src="./images/judo.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+						</div>
+						<div class="column">
+						  <img src="./images/karate.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+						</div>
+						<div class="column">
+						  <img src="./images/kung_fu.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+						</div>
+						<div class="column">
+							<img src="./images/muay_thai.png" onclick="openModal();currentSlide(5)" class="hover-shadow">
+						  </div>
+						  <div class="column">
+							<img src="./images/taekwondo.png" onclick="openModal();currentSlide(6)" class="hover-shadow">
+						  </div>					  
+						</div>
+
+						<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+	<span class="close cursor" onclick="closeModal()">&times;</span>
+	<div class="modal-content">
+  
+	  <div class="mySlides">
+		<div class="numbertext">1 / 5</div>
+		<img src="./images/jiu_jitsu.png" style="width:100%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">2 / 5</div>
+		<img src="./images/judo.png" style="width:100%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">3 / 5</div>
+		<img src="./images/karate.png" style="width:100%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">4 / 5</div>
+		<img src="./images/kung_fu.png" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+		<div class="numbertext">5 / 5</div>
+		<img src="./images/muay_thai.png" style="width:100%">
+	  </div>
+  
+	  <!-- Next/previous controls -->
+	  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+	  <!-- Caption text -->
+	  <div class="caption-container">
+		<p id="caption"></p>
+	  </div>
+  
+	  <!-- Thumbnail image controls -->
+	  <div class="column">
+		<img class="demo" src="./images/jiu_jitsu.png" onclick="currentSlide(1)" alt="Jiu Jitsu lock">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="./images/judo.png" onclick="currentSlide(2)" alt="Judo throw">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="./images/karate.png" onclick="currentSlide(3)" alt="Karate kick">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="./images/kung_fu.png" onclick="currentSlide(4)" alt="Traditional Shoalin Monks">
+	  </div>
+	  <div class="column">
+		<img class="demo" src="./images/muay_thai.png" onclick="currentSlide(5)" alt="frontkick">
+	  </div>
+	</div>
+  </div>
 				
 					<!-- PHOTO-CONTAINER 1 -->
 					<div>
@@ -45,7 +126,7 @@
 							<img src="./images/jiu_jitsu.png" alt="Jiu Jitsu lock">
 							<div>
 								<h3>Click to Enlarge</h3>
-								<p>The written history of jujutsu first began during the Nara period (c. 710 – c. 794)</p>
+								<p>The written history of jui jitsu first began during the Nara period (c. 710 – c. 794)</p>
 							</div>
 						</div>	
 					</div>	
@@ -180,4 +261,5 @@
 	<!--End Footer-->
 	
 	</body>
+	<script src="./JS/one_page_website.js"></script>
 </html>	
